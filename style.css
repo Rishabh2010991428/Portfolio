@@ -51,7 +51,7 @@ div{
 }
 /* button */
 .btn{
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid black;
     border-radius: 20px;
     color: blue;
     font-size: medium;
@@ -62,8 +62,13 @@ div{
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.main-btn:hover{
+    color: rgb(41, 74, 206);
+    transition-duration: 0.2s;
+}
 /* about section */
 #about h1{
+    margin: 50px;
     text-align: center;
     font-weight: bolder;
     font-style: italic;
@@ -88,13 +93,14 @@ div{
 }
 
 .experience-cards{
-    background-color: rgb(59, 54, 54);
+    background-color: white;
     border-radius: 20px;
-    padding: 10px;
+    padding: 25px;
 }
 
 /* skills section */
 #skills h1{
+    margin: 20px;
     text-align: center;
     font-weight: bolder;
     font-style: italic;
@@ -109,11 +115,6 @@ div{
 .skill_item img{
     height: 100px;
     width: 100px;
-    transition: height 1s, width 1;
-}
-.skill_item:hover{
-    height: 120px;
-    width: 120px;
 }
 
 /* education section */
@@ -124,7 +125,7 @@ div{
 }
 
 .education_item{
-    background-color: rgb(72, 66, 66);
+    background-color: white;
     border-radius: 30px;
     margin: 20px;
     padding: 20px;
@@ -159,7 +160,7 @@ div{
     font-style: italic;
 }
 .contact-div{
-    background-color: rgb(67, 65, 63);
+    background-color: white;
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
