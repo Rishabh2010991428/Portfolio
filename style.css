@@ -139,7 +139,7 @@ div{
     text-align: center;
     font-weight: bolder;
     font-style: italic;
-    margin-top: 200px;
+    margin-top: 330px;
     padding: 50px;
 }
 
@@ -166,10 +166,19 @@ div{
     border-radius: 20px;
 
 }
+.contact-input{
+    margin: 5px;
+    border: 2px solid black;
+    color: black;
+    font-size: large;
+    padding: 8px;
+    font-weight: 500;
+    border-radius: 5px;
+}
 
 /* footer */
 #footer-heading{
-    margin-left: 40%;
+    margin-left: 41%;
 }
 .footer-div{
     float: left;
