@@ -1,0 +1,198 @@
+/* body */
+body{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    background-image: url("images/pexels-jana-kukebal-6496462.jpg");
+}
+div{
+    color: rgb(0, 0, 0);
+}
+
+/* navbar */
+.container-fluid{
+    color: beige;
+    font-weight: 900;
+}
+.navbar-brand{
+    color:#e9ebe4;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    padding-left: 30px;
+    font-size: xx-large;
+}
+
+/* navbar */
+.navbar{
+    background-color: rgb(14, 19, 55);
+}
+.navbar-nav a{
+    color: rgb(44, 140, 224);
+}
+/* banner class */
+#banner{
+    background-image: url("images/banner-background1.jpg");
+    /* background-repeat: no-repeat; */
+    padding-left: 100px;
+    width: 100%;
+    background-color: white;
+    height: 700px;
+}
+
+.banner_content{
+    float: left;
+    width: 40%;
+}
+.banner-heading{
+    margin-top: 18%;
+    margin-left: 5%;
+}
+.banner-img{
+    margin-top: 150px;
+}
+/* button */
+.btn{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    color: blue;
+    font-size: medium;
+    font-weight: 700;
+    text-decoration: none;
+}
+.main-btn{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* about section */
+#about h1{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.about-list{
+    margin: 50px;
+}
+
+.about-list li{
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 400;
+}
+/* experience section */
+#experience h1{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.experience-cards{
+    background-color: rgb(59, 54, 54);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* skills section */
+#skills h1{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.skill_item{
+    /* width: 100px; */
+    float: left;
+    margin: 8%;
+    padding: 5px;
+}
+.skill_item img{
+    height: 100px;
+    width: 100px;
+    transition: height 1s, width 1;
+}
+.skill_item:hover{
+    height: 120px;
+    width: 120px;
+}
+
+/* education section */
+#education h1{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.education_item{
+    background-color: rgb(72, 66, 66);
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    height: 300px;
+    float: left;
+}
+
+/* licenses */
+#licenses h1{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 200px;
+    padding: 50px;
+}
+
+/* contact section */
+.contact-header{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    margin: 50px;
+}
+.contact-form > input{
+    border-radius: 20px;
+}
+
+#contactMe h1{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+.contact-div{
+    background-color: rgb(67, 65, 63);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+/* footer */
+#footer-heading{
+    margin-left: 40%;
+}
+.footer-div{
+    float: left;
+    padding: 25px;
+}
+#footer-icon-start{
+    margin-left: 20%;
+    padding-left: 20%;
+}
+/* copyright */
+#copyright-div{
+    height: 50px;
+    width: 100%;
+    background-color: azure;
+    color: black;
+    margin-top: 100px;
+}
+.fa-solid{
+    margin-top: 15px;
+    padding-left: 10%;
+}
+#copyright-div h5{
+    margin-left: 33%;
+    font-size: medium;
+    font-weight: 600;
+}
+
